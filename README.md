@@ -1,9 +1,9 @@
-What to Hand In: Include your source code files (including .h files), makefile, and the
+i need your source code files (including .h files), makefile, and the
 required documentation file(s) described below. Please ensure that all code/makefile files
 are in plain ASCII format, and the documentation is in a standard format
 (e.g., .txt/.pdf/.docx).
 Introduction
-For this assignment you are going to implement a solution to the general dynamic storage
+ you are going to implement a solution to the general dynamic storage
 allocation problem. That is, you are going to provide the interface routines
 my_malloc() and my_free(). These should have the same parameters and return
 types as malloc() and free() as described in the UNIX man pages. As far as
@@ -33,13 +33,7 @@ How will this assignment be judged? On several points:
 Often these goals are traded off. For example linear-list-based first-fit is slow, but creates
 little fragmentation. No algorithm can be perfect in every respect, so don't twist your
 brain too hard looking for utopia.
-When you hand in this assignment you are expected to also hand in a description of the
-algorithm and data structures used. Be sure to provide reasonable detail so that your ideas
-may be understood. I would expect the description to be between one and two pages -
-give or take. Feel free to use diagrams to detail your data structures. A significant bulk of
-the grade will be based on your data structure.
-Submission
-This will be handed in electronically. I'd like you to hand in the following items:
+
 • All your source code: my_malloc.c, my_malloc.h, and a mem_test.c file
 (with the main() function) that tests your implementation.
 • We may replace your mem_test.c file with our own copy, so do make sure
